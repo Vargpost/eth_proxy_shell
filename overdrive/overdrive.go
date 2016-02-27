@@ -2,7 +2,7 @@ package overdrive
 
 /*
 #cgo CFLAGS: -I.
-#cgo LDFLAGS: /home/egorka/rb2/include/lnk.a -ldl -lstdc++
+#cgo LDFLAGS: ../include/lnk.a -ldl -lstdc++
 #include "../include/lnk.h"
 */
 import "C"
