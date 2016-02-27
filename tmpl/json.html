@@ -1,0 +1,19 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<div class="container well">
+     	<p class="lead">{{.}}</p> 
+     	    <form action="/jsondecode" method="post"> 
+			
+     		<input type="hidden" name="json" value="{{.}}"></br>
+			
+            <button type="submit" class="btn btn-info">Converti</button>
+     </form>
+	</div>
+	
+</body>
+</html>   

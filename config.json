@@ -1,0 +1,54 @@
+{
+	"frontend": {
+		"name": "Kirov 2",
+		"listen": "0.0.0.0:8088",
+		"login": "admin",
+		"password": ""
+	},
+	
+	"gpunumber": 3,
+
+	"gpudevice": [
+		{
+			"name": "OldDevice",
+			"timeout": "2s",
+			"aid": 1,
+			"tid": 0,
+			"fan": 600,
+			"pwrcontrol": 1,
+			"engclock": 600,
+			"memclock": 120
+		},
+		{
+			"name": "NewDevice",
+			"timeout": "2s",
+			"aid": 3,
+			"tid": 0,
+			"fan": 600,
+			"pwrcontrol": 1,
+			"engclock": 600,
+			"memclock": 120
+		},
+		{
+			"name": "....",
+			"timeout": "2s",
+			"aid": 4,
+			"tid": 0,
+			"fan": 600,
+			"pwrcontrol": 1,
+			"engclock": 600,
+			"memclock": 120
+		}
+	],
+	
+	"gpucheck": "2s",
+	
+	"threads": 2,
+	
+	"newrelicEnabled": false,
+	"newrelicName": "MyEtherProxy",
+	"newrelicKey": "SECRET_KEY",
+	"newrelicVerbose": false
+	
+}
+
